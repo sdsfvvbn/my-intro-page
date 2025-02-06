@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Including Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+        }
+
+        #fashion_store {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #f4f4f4;
+            padding: 1rem;
+            position: fixed;
+            top: 60px;
+            width: 100%;
+            z-index: 99;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav li {
+            cursor: pointer;
+        }
+
+        nav li:hover {
+            color: #666;
+        }
+
+        section {
+            margin-top: 120px; /* Header + Nav height */
+            padding: 1rem;
+        }
+
+        .content-section {
+            margin: 2rem 0;
+            padding: 2rem;
+            background-color: white;
+        }
+
+        img {
+            width: 100%;
+            max-width: 1200px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        /* 新增的商品展示區域樣式 */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .product-card {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="fashion_store">Fashion Store</div>
+    </header>
+    <nav>
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+        </ul>
+    </nav>
+    <section>
+        <img src="https://t3.ftcdn.net/jpg/02/41/43/18/360_F_241431868_8DFQpCcmpEPVG0UvopdztOAd4a6Rqsoo.jpg" alt="Shopping Time">
+        
+        <!-- 新增的內容區域 -->
+        <div class="content-section">
+            <h2>Welcome to Our Fashion Store</h2>
+            <p>Discover the latest trends and styles in fashion.</p>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="/api/placeholder/250/200" alt="Fashion Item 1">
+                <h3>Fashion Item 1</h3>
+                <p>$99.99</p>
+            </div>
+            <div class="product-card">
+                <img src="/api/placeholder/250/200" alt="Fashion Item 2">
+                <h3>Fashion Item 2</h3>
+                <p>$79.99</p>
+            </div>
+            <div class="product-card">
+                <img src="/api/placeholder/250/200" alt="Fashion Item 3">
+                <h3>Fashion Item 3</h3>
+                <p>$89.99</p>
+            </div>
+            <div class="product-card">
+                <img src="/api/placeholder/250/200" alt="Fashion Item 4">
+                <h3>Fashion Item 4</h3>
+                <p>$129.99</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="layer">© 2012-2023 FashionStore.com</div>
+    </footer>
+</body>
+</html>

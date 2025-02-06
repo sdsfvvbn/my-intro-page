@@ -1,0 +1,27 @@
+ul{
+    list-style-type: none;
+    background: whitesmoke;
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+
+
+}
+li a.active{
+    background: green;
+    color: white;
+}
+li a:hover:not(.active){
+    background: lightgray;
+}

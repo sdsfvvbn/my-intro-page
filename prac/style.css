@@ -1,0 +1,65 @@
+/* Google Font */
+/* h1{
+    font-family: "Bungee", serif;
+    font-size: xx-large;
+}
+p{
+    font-family: "Macondo", serif;
+    font-size: xx-large;
+}
+ */
+
+/* Shaow box */
+/* h1{
+    text-shadow: 2px 2px 10px;
+}
+
+#div_1{
+    box-shadow:3px 3px 10px #5d42d6;
+} */
+
+/* img{
+    float: left;
+} */
+
+/* overflow */
+/* #box_1{
+    height: 150px;
+    width: 150px;
+    border: 2px solid #000;
+    /* overflow: hidden; 超過格子的會不見 */
+    /* overflow: clip 和hidden很像; */
+    /* overflow: visible; 超過格子的看的見*/
+    /* overflow: auto; */
+    /* overflow:scroll; 和auto很像*/
+/*} */
+
+/* display */
+/* div{
+    display: inline;
+} */
+ /* div{
+    display: inline-block;
+    height: 10px;
+    width: 50px;
+ } 
+inline block 可以設長寬*/
+/* span{
+   display: block;
+} */
+
+/* 長寬 */
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: gray;
+}
+.box{
+    height: 100px;
+    min-width: 25%;
+    max-width: 50%;
+    border: 2px solid black;
+    float: left;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wei-Ting Website</title>
+    <!-- 通常style 會寫在head內 -->
+    <style>
+        h1 {
+            font-size: 50px;
+        }
+
+        p {
+            color: blue;
+            font-size: 24px;
+            background-color: yellow;
+            font-style: italic;
+        }
+
+        .special {
+            color: black;
+            font-size: 24px;
+            font-style: normal;
+            background-color: yellow;
+
+        }
+
+        pre {
+            color: aqua;
+            font-size: 26px;
+            background-color: grey;
+        }
+        button{
+            color: purple;
+        }
+       
+
+        a:link,
+        a:visited {
+            background-color: blue;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover {
+            background-color: rgb(165, 236, 23);
+        }
+
+        /* 
+        a:hover 是滑鼠移動到上面的顏色
+        a:active是滑鼠click到的顏色
+        */
+        a:active {
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        😂This is a website😂
+    </h1>
+    <!-- <h>是 block tag  而 <span>是inline tag block 和 inline 的差別是可不可以有連結 -->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Distinctio similique deserunt unde natus, eum numquam consectetur voluptates,
+        enim, velit sequi at nulla? Iure ratione doloremque optio sunt, similique
+        nihil dolor.
+    </p>
+
+    <p class="special">
+        Lorem ipsum dolor <br> sit amet consectetur adipisicing elit.
+        Distinctio similique deserunt unde natus, eum numquam consectetur voluptates,
+        enim, velit sequi at nulla? Iure ratione doloremque optio sunt, similique
+        nihil dolor.
+    </p>
+
+    <pre>
+        My Bonnie lies over the ocean.
+      
+        My Bonnie lies over the sea.
+      
+        My Bonnie lies over the ocean.
+      
+        Oh, bring back my Bonnie to me.
+      </pre>
+    <hr class="line1">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Distinctio similique deserunt unde natus, eum numquam consectetur voluptates,
+        enim, velit sequi at nulla? Iure ratione doloremque optio sunt, similique
+        nihil dolor.
+    </p>
+
+    <button> I am a button</button>
+
+    <hr>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Distinctio similique deserunt unde natus, eum numquam consectetur voluptates,
+        enim, velit sequi at nulla? Iure ratione doloremque optio sunt, similique
+        nihil dolor.
+    </p>
+
+    <hr>
+    <h2>This is heading 2</h2>
+    <p>This is some other text.</p>
+    <hr>
+    <ol>
+        <li>step1</li>
+        <li>step2</li>
+        <li>step3</li>
+    </ol>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YeQJM-AmRLE?si=7XJsABeFBpbXTYW-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <nav>
+        <a href="https://learngerman.dw.com/de/abc/c-39142095">i11</a>
+
+    </nav>
+    <br>
+    <br> 
+    <!-- br 換行 -->
+     <!-- form 的功能 等到學javascript  -->
+    <form method="get" action="/submit">
+        <div>
+            Your name: <input type="text" name="user-name" required>
+        </div>
+        <div>
+            Your email:
+            <input type="email" name="user-email" required>
+            <br>
+            <input type="submit">
+        </div>
+    </form>
+
+    <figure>
+        <img src="享受.jpg" alt="很享受的可愛動物">
+        <figcaption>很享受的可愛動物</figcaption>
+        <!-- ctrl+/可以打註解 -->
+    </figure>
+
+</body>
+
+</html>
