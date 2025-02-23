@@ -1,88 +1,4 @@
-/* 全域設定 */
-body {
-    font-family: "Zen Kurenaido", serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    background-color:  #739c84;
-}
 
-/* .zen-kurenaido-regular {
-    font-family: "Zen Kurenaido", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-   */
-
-/* 標頭 */
-header {
-    background-color: #EFEFD0 ; 
-
-    color: black;
-    padding: 22px 0;
-}
-
-/* h1 {
-    font-family: "Zen Kurenaido", serif;
-    font-weight: 400;
-    font-style: normal;
-  } */
-
-h1 {
-    font-family: "Noto Serif SC", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-  }
-
-.li{
-    float: left;
-}
-
-
-
-/* 個人介紹區 */
-.about img {
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
-    margin-top: 25px;
-}
-
-/* 技能列表 */
-.skills ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.skills li {
-    display: inline-block; 
-    background-color: black;
-    color: white;
-    padding: 8px 12px;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-.skills li:hover{
-    padding: 16px 24px;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-/* 連結樣式 */
-.contact a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.contact a:hover {
-    color: #0056b3;
-}
 body {
     font-family: "Zen Kurenaido", serif;
     font-weight: 500;
@@ -119,7 +35,9 @@ h1 {
 h2{
     font-size:xx-large;
 }
-
+.length{
+    margin-bottom: 8px;
+}
 .skills ul {
     list-style-type: none;
     padding: 0;
@@ -133,7 +51,7 @@ h2{
     margin: 5px;
     border-radius: 5px;
     font-weight:400;
-    font-size:larger;
+    /* font-size:larger; */
 }
 
 .interest ul{
@@ -162,7 +80,7 @@ h2{
     color: black;
     font-weight: bold;
     transition: 0.3s;
-    font-size:larger;
+    font-size:22px;
 }
 
 .contact a:hover {
