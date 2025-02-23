@@ -83,3 +83,88 @@ h1 {
 .contact a:hover {
     color: #0056b3;
 }
+body {
+    font-family: "Zen Kurenaido", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color:  #739c84;
+    font-size: larger;
+}
+
+header {
+    background-color: #EFEFD0 ; 
+    color: black;
+    padding: 30px 0;
+    position: relative;
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    right: 400px;
+    bottom: 0;
+}
+h1 {
+    font-family: "Noto Serif SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin:0;
+  }
+h2{
+    font-size:xx-large;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline-block; 
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight:400;
+    font-size:larger;
+}
+
+.interest ul{
+    margin: 0 auto; 
+    width: fit-content;
+    
+}
+
+.interest li{
+    text-align: left;
+    font-size:larger;
+}
+
+
+.contact{
+   
+    display: flex;
+    justify-content: center;
+
+}
+.contact a {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size:larger;
+}
+
+.contact a:hover {
+    color: #0056b3;
+}
